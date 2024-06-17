@@ -24,6 +24,7 @@ namespace SeleniumFirst
             //Perform Ops
 
             element.SendKeys("executeautomation");
+            element.Submit();
             Console.WriteLine("Executed Test");
 
             driver.Close();
